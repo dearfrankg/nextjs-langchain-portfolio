@@ -9,6 +9,12 @@ export default function Navbar() {
           <Link href="/" className="text-primary hover:underline">
             home
           </Link>
+          <Link href="/about" className="text-primary hover:underline">
+            about me
+          </Link>
+          <Link href="/social" className="text-primary hover:underline">
+            social media
+          </Link>
         </nav>
         <div className="flex items-center gap-4">
           <ThemeToggle />
