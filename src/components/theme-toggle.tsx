@@ -5,8 +5,6 @@ import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
-  console.log("theme: ", theme);
-  console.log("theme: ", theme, theme === "dark");
 
   return (
     <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
