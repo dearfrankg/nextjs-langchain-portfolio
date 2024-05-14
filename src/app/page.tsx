@@ -16,7 +16,7 @@ export default function Home() {
         <div className="space-y-3">
           <H1 className="text-center sm:text-start">{"Hi, I'm Frank 👋"}</H1>
           <p className="text-center sm:text-start">
-            I&apos;m a full-stack developer from Silicon Valley who build cool
+            I&apos;m a full-stack developer from Silicon Valley who builds cool
             projects and blogs about tech.
           </p>
         </div>
